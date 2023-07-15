@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.book-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.book-image {
+    flex: 0 0 100px;
+    margin-right: 10px;
+}
+
+.book-image img {
+    width: 100%;
+    height: auto;
+}
+
+.book-details {
+    flex: 1;
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.book-description {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+blockquote{
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.quote {
+    font-style: italic;
+    color: #666;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Arial Unicode MS', Arial, sans-serif;
+}
